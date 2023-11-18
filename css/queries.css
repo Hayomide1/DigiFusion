@@ -1,0 +1,69 @@
+@media (max-width: 100em) {
+  .aboutme--contain {
+    left: 0rem;
+    width: 55rem;
+  }
+  .aboutMe--box {
+    gap: 3rem;
+  }
+}
+
+@media (max-width: 85em) {
+  .head_paragraph {
+    font-size: 2.8rem;
+  }
+  .head-tertiary {
+    font-size: 3.2rem;
+    letter-spacing: -0.1rem;
+  }
+  .cardPara {
+    font-size: 2.2rem;
+    letter-spacing: normal;
+  }
+  .cardbtn p {
+    font-size: 2.2rem;
+  }
+  .serv--card {
+    max-width: 35rem;
+  }
+  .head-secondary {
+    font-size: 5rem;
+  }
+  .about--head {
+    letter-spacing: -0.1rem;
+  }
+  .about-tertiary {
+    font-size: 2.2rem;
+  }
+  .aboutBtn p {
+    font-size: 2.2rem;
+  }
+  .aboutme--contain {
+    left: 1rem;
+    width: 50rem;
+  }
+  .aboutMe--box {
+    gap: 5rem;
+  }
+  .digi--head {
+    font-size: 2.8rem;
+  }
+  .digi--text {
+    font-size: 2rem;
+  }
+  .digi--card {
+    max-width: 35rem;
+  }
+}
+
+@media (max-width: 77.5em) {
+  html {
+    font-size: 56.25%;
+  }
+}
+
+@media (max-width: 67.75em) {
+  html {
+    font-size: 53.125%;
+  }
+}
