@@ -10,6 +10,10 @@
       href="https://fonts.googleapis.com/css2?family=Itim&family=League+Spartan:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="stylesheet" href="css/queries.css" />
     <script src="script.js"></script>
@@ -17,7 +21,7 @@
   <body>
     <header class="header">
       <div class="main_header container">
-        <div class="main__nav">
+        <div class="main__nav nav-open">
           <img src="./img/digi--logo.png" alt="Digi logo" class="logo" />
           <div class="main__nav-links">
             <a href="#" class="nav__link active">Home</a>
@@ -25,6 +29,10 @@
             <a href="#" class="nav__link">My work</a>
             <a href="#" class="nav__link">Contacts</a>
           </div>
+          <button class="btn-mobile-nav">
+            <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+            <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+          </button>
         </div>
         <div class="header__content">
           <div class="head__primary-box">
@@ -296,11 +304,15 @@
             <h3 class="quick_links_head">Get in touch</h3>
             <div class="getin--touch-box">
               <div class="get--touch">
-                <img src="./svg/Phone.png" alt="Phone" class="touch--img" />
+                <div class="touch--imgs">
+                  <img src="./svg/Phone.png" alt="Phone" class="touch--img" />
+                </div>
                 <p class="touch-para">08156510975</p>
               </div>
               <div class="get--touch">
-                <img src="./svg/Email.png" alt="Phone" class="touch--img" />
+                <div class="touch--imgs">
+                  <img src="./svg/Email.png" alt="Mail" class="touch--img" />
+                </div>
                 <p class="touch-para">digifusion32@gmail.com</p>
               </div>
             </div>

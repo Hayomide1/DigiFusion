@@ -67,8 +67,156 @@
     font-size: 53.125%;
   }
 }
+
 @media (max-width: 64em) {
   html {
-    font-size: 50%;
+    font-size: 49%;
+  }
+}
+
+@media (max-width: 59rem) {
+  html {
+    font-size: 47%;
+  }
+  .myServ--cards {
+    flex-direction: column;
+    gap: 5rem;
+  }
+  .serv--card {
+    max-width: 50rem;
+  }
+  .aboutme--contain::before {
+    display: none;
+  }
+  .aboutme--contain {
+    background: none;
+    left: 0rem;
+    width: 60rem;
+  }
+  .aboutMe--box {
+    flex-direction: column;
+  }
+  .aboutme__textbox,
+  .book--textbox {
+    align-items: center;
+  }
+  .about--first,
+  .about--head,
+  .about-tertiary,
+  .digi--text,
+  .book--head,
+  .book--para {
+    text-align: center;
+  }
+  .whyDigi--cards {
+    flex-direction: column;
+    gap: 4rem;
+  }
+  .digiCard--container {
+    align-items: center;
+  }
+  .digi--card {
+    max-width: 45rem;
+  }
+  .book--imgs {
+    display: none;
+  }
+  .book--textbox {
+    max-width: 60rem;
+  }
+  .logo-foot {
+    max-width: 6rem;
+  }
+  /* .main__nav-links {
+    display: none;
+  } */
+  .btn-mobile-nav {
+    display: block;
+    z-index: 3;
+  }
+  .main__nav-links {
+    background-color: #fffbeefc;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80%;
+    z-index: 2;
+    transform: translateX(100%);
+
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 4.8rem;
+    transition: all 0.5s ease-in;
+
+    /* HIDE NAVIGATION */
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+  }
+
+  .nav-open .main__nav-links {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translate(0);
+  }
+  .nav-open .icon-mobile-nav[name="close-outline"] {
+    display: block;
+    color: #555;
+  }
+  .nav-open .icon-mobile-nav[name="menu-outline"] {
+    display: none;
+  }
+  .nav__link {
+    font-size: 4rem;
+    color: #555;
+  }
+  .active {
+    color: #ecb90e;
+  }
+}
+
+@media (max-width: 50em) {
+  html {
+    font-size: 43%;
+  }
+  .header_button {
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .other--footer-box,
+  .footer--digi {
+    gap: 10rem;
+  }
+}
+
+@media (max-width: 45.44em) {
+  html {
+    font-size: 40%;
+  }
+  .footer--digi {
+    flex-direction: column;
+    gap: 5rem;
+  }
+  .digi--foot_logo {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+  }
+  .social_links {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+@media (max-width: 42.31em) {
+  html {
+    font-size: 38%;
+  }
+  .head_primary {
+    font-size: 6rem;
   }
 }

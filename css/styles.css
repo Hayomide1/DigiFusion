@@ -7,12 +7,15 @@
 }
 html {
   font-size: 62.5%;
+  overflow-x: hidden;
 }
 body {
   font-family: sans-serif;
   line-height: 1;
   font-weight: 400;
   color: #555;
+
+  overflow-x: hidden;
 }
 .container {
   max-width: 200rem;
@@ -25,7 +28,7 @@ body {
 /* HEADER SECTION  */
 .header {
   background: url("../img/background-img.png");
-  height: 100vh;
+  height: 98vh;
   background-repeat: no-repeat;
   background-size: cover;
   padding: 4rem 0 4rem 0;
@@ -43,6 +46,10 @@ body {
 *******************************************
 *******************************************/
 /* NAVIGATION LINKS  */
+
+.header {
+  position: relative;
+}
 
 .main__nav {
   display: flex;
@@ -70,6 +77,23 @@ body {
 }
 .active {
   color: #fff;
+}
+
+/* MOBILE NAV */
+.btn-mobile-nav {
+  border: none;
+  background: none;
+  cursor: pointer;
+  display: none;
+}
+.icon-mobile-nav {
+  height: 6rem;
+  width: 6rem;
+  color: #fff;
+}
+
+.icon-mobile-nav[name="close-outline"] {
+  display: none;
 }
 
 /*******************************************
@@ -694,6 +718,14 @@ body {
   color: #333;
   font-family: "League Spartan", sans-serif;
   font-size: 2.2rem;
+}
+.touch--imgs {
+  max-width: 4rem;
+  height: 4rem;
+}
+.touch--img {
+  width: 100%;
+  height: auto;
 }
 
 /************************************
