@@ -9,6 +9,9 @@
 }
 
 @media (max-width: 85em) {
+  html {
+    font-size: 60%;
+  }
   .head_paragraph {
     font-size: 2.8rem;
   }
@@ -191,6 +194,9 @@
   .footer--digi {
     gap: 10rem;
   }
+  .header {
+    height: 98%;
+  }
 }
 
 @media (max-width: 45.44em) {
@@ -218,5 +224,25 @@
   }
   .head_primary {
     font-size: 6rem;
+  }
+}
+@media (max-width: 35.31em) {
+  html {
+    font-size: 38%;
+  }
+  .head_primary {
+    font-size: 5rem;
+  }
+  .head_paragraph {
+    font-size: 2.4rem;
+  }
+  .header__content {
+    gap: 2rem;
+  }
+  .header {
+    height: 98%;
+  }
+  .container {
+    padding: 4rem;
   }
 }

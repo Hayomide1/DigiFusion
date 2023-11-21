@@ -28,7 +28,7 @@ body {
 /* HEADER SECTION  */
 .header {
   background: url("../img/background-img.png");
-  height: 98vh;
+  height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
   padding: 4rem 0 4rem 0;
