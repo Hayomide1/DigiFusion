@@ -75,6 +75,12 @@
   html {
     font-size: 49%;
   }
+  .header {
+    height: 98%;
+  }
+  .header__content {
+    margin-bottom: 15rem;
+  }
 }
 
 @media (max-width: 59rem) {
@@ -194,9 +200,6 @@
   .footer--digi {
     gap: 10rem;
   }
-  .header {
-    height: 98%;
-  }
 }
 
 @media (max-width: 45.44em) {
@@ -244,5 +247,13 @@
   }
   .container {
     padding: 4rem;
+  }
+  .aboutme--contain {
+    width: 50rem;
+  }
+}
+@media (max-width: 25.9375rem) {
+  html {
+    font-size: 34%;
   }
 }
