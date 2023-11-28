@@ -215,7 +215,10 @@ body {
   gap: 10rem;
   align-items: center;
 }
-
+.serv--img {
+  width: 8rem;
+  height: 8rem;
+}
 .head-secondary {
   font-family: "League Spartan", sans-serif;
   font-size: 6rem;
