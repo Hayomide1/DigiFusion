@@ -2,8 +2,19 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>DigiFusion</title>
+    <meta
+      name="Digtra"
+      content="Digtra-Fusion is a company dedicated to drive your business towards online success and transform your business with my creativity, and data-driven strategies."
+    />
+
+    <title>DigiFusion &mdash; Scale up your business</title>
+
+    <link rel="icon" href="img/fav-icon.png" />
+    <link rel="apple-touch-icon" href="img/apple-touch.png" />
+    <link rel="manifest" href="manifest.webmanifest" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -16,17 +27,19 @@
     ></script>
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="stylesheet" href="css/queries.css" />
-    <script src="script.js"></script>
+    <script defer src="script.js"></script>
   </head>
   <body>
     <header class="header">
       <div class="main_header container">
-        <div class="main__nav nav-open">
-          <img src="./img/digi--logo.png" alt="Digi logo" class="logo" />
+        <div class="main__nav">
+          <a href="#">
+            <img src="./img/digi--logo.png" alt="Digi logo" class="logo" />
+          </a>
           <div class="main__nav-links">
             <a href="#" class="nav__link active">Home</a>
             <a href="#" class="nav__link">Services</a>
-            <a href="#" class="nav__link">My work</a>
+            <a href="#about" class="nav__link">About</a>
             <a href="#" class="nav__link">Contacts</a>
           </div>
           <button class="btn-mobile-nav">
@@ -136,7 +149,7 @@
         </div>
       </div>
     </section>
-    <section class="about-me">
+    <section class="about-me" id="about">
       <div class="about--me container">
         <div class="aboutMe-text">
           <h2 class="head-secondary">
@@ -241,24 +254,26 @@
       <div class="footer--digi container">
         <div class="digi--foot_logo">
           <div class="digifoot">
-            <img
-              src="./img/digi--logo.png"
-              alt="Digtra-logo"
-              class="logo-foot"
-            />
+            <a href="#">
+              <img
+                src="./img/digi--logo.png"
+                alt="Digtra-logo"
+                class="logo-foot"
+              />
+            </a>
             <p class="footer-para">Digi Fusion</p>
           </div>
           <div class="social_links">
-            <a href="#" class="social_link"
+            <a href="#1" class="social_link"
               ><img src="./svg/LinkedIn.png" alt="LinkedIn" class="foot--link"
             /></a>
-            <a href="#" class="social_link"
+            <a href="#1" class="social_link"
               ><img src="./svg/Facebook.png" alt="LinkedIn" class="foot--link"
             /></a>
-            <a href="#" class="social_link"
+            <a href="#1" class="social_link"
               ><img src="./svg/WhatsApp.png" alt="LinkedIn" class="foot--link"
             /></a>
-            <a href="#" class="social_link"
+            <a href="#1" class="social_link"
               ><img src="./svg/Instagram.png" alt="LinkedIn" class="foot--link"
             /></a>
           </div>
@@ -267,10 +282,10 @@
           <div class="quick--links">
             <h3 class="quick_links_head">Quick links</h3>
             <div class="quick_link-box">
-              <a href="#" class="quick_link">Home</a>
-              <a href="#" class="quick_link">Contacts</a>
-              <a href="#" class="quick_link">Services</a>
-              <a href="#" class="quick_link">My Work</a>
+              <a href="#1" class="quick_link">Home</a>
+              <a href="#1" class="quick_link">Contacts</a>
+              <a href="#1" class="quick_link">Services</a>
+              <a href="#1" class="quick_link">My Work</a>
             </div>
           </div>
           <div class="getin--touch">
@@ -296,7 +311,8 @@
     <section class="copyright">
       <div class="copy-right container">
         <h3 class="copyright-head">
-          COPYRIGHT© 2023 DIGTRA FUSION. ALL RIGHTS RESERVED
+          COPYRIGHT © <span class="year">2023</span> DIGTRA FUSION. ALL RIGHTS
+          RESERVED
         </h3>
       </div>
     </section>
