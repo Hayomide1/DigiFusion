@@ -8,6 +8,7 @@
 html {
   font-size: 62.5%;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 body {
   font-family: sans-serif;
@@ -745,7 +746,7 @@ body {
   color: #333;
   font-family: "Montserrat";
   font-size: 1.6rem;
-  font-weight: 500;
+  font-weight: 600;
   letter-spacing: -0.096rem;
   text-transform: capitalize;
   text-align: center;
